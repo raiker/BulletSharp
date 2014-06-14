@@ -1,13 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BulletSharp", "BulletSharp.vcxproj", "{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug Axiom|Win32 = Debug Axiom|Win32
 		Debug Axiom|x64 = Debug Axiom|x64
+		Debug Exon3d|Win32 = Debug Exon3d|Win32
+		Debug Exon3d|x64 = Debug Exon3d|x64
 		Debug Generic|Win32 = Debug Generic|Win32
 		Debug Generic|x64 = Debug Generic|x64
 		Debug Mogre|Win32 = Debug Mogre|Win32
@@ -28,6 +31,8 @@ Global
 		Debug XNA 4.0|x64 = Debug XNA 4.0|x64
 		Release Axiom|Win32 = Release Axiom|Win32
 		Release Axiom|x64 = Release Axiom|x64
+		Release Exon3d|Win32 = Release Exon3d|Win32
+		Release Exon3d|x64 = Release Exon3d|x64
 		Release Generic|Win32 = Release Generic|Win32
 		Release Generic|x64 = Release Generic|x64
 		Release Mogre|Win32 = Release Mogre|Win32
@@ -52,6 +57,10 @@ Global
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Axiom|Win32.Build.0 = Debug Axiom|Win32
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Axiom|x64.ActiveCfg = Debug Axiom|x64
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Axiom|x64.Build.0 = Debug Axiom|x64
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Exon3d|Win32.ActiveCfg = Debug Exon3d|Win32
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Exon3d|Win32.Build.0 = Debug Exon3d|Win32
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Exon3d|x64.ActiveCfg = Debug Exon3d|x64
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Exon3d|x64.Build.0 = Debug Exon3d|x64
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Generic|Win32.ActiveCfg = Debug Generic|Win32
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Generic|Win32.Build.0 = Debug Generic|Win32
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Debug Generic|x64.ActiveCfg = Debug Generic|x64
@@ -92,6 +101,10 @@ Global
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Axiom|Win32.Build.0 = Release Axiom|Win32
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Axiom|x64.ActiveCfg = Release Axiom|x64
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Axiom|x64.Build.0 = Release Axiom|x64
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Exon3d|Win32.ActiveCfg = Release Exon3d|Win32
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Exon3d|Win32.Build.0 = Release Exon3d|Win32
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Exon3d|x64.ActiveCfg = Release Exon3d|x64
+		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Exon3d|x64.Build.0 = Release Exon3d|x64
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Generic|Win32.ActiveCfg = Release Generic|Win32
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Generic|Win32.Build.0 = Release Generic|Win32
 		{5A0DEF7E-B7E3-45E9-A511-0F03CECFF8C0}.Release Generic|x64.ActiveCfg = Release Generic|x64

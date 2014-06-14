@@ -61,6 +61,9 @@ using namespace Microsoft::Xna::Framework;
 #using <x64/SlimDX.dll>
 #endif
 using namespace SlimDX;
+#elif GRAPHICS_EXON3D
+#using <Exon.dll>
+using namespace Exon;
 #elif GRAPHICS_SHARPDX
 #using <SharpDX.dll>
 using namespace SharpDX;
@@ -107,6 +110,10 @@ using namespace Microsoft::WindowsAPICodePack::DirectX::Direct3D;
 #define BtVectorToBtColor(color) BtColor((float)color.getX(), (float)color.getY(), (float)color.getZ()) // cast for DP build
 #elif GRAPHICS_XNA40
 #define BtColor Microsoft::Xna::Framework::Color
+#define BtColorToBtVector(color) new btVector3(color.R, color.G, color.B)
+#define BtVectorToBtColor(color) BtColor((float)color.getX(), (float)color.getY(), (float)color.getZ()) // cast for DP build
+#elif GRAPHICS_EXON3D
+#define BtColor Exon::Color
 #define BtColorToBtVector(color) new btVector3(color.R, color.G, color.B)
 #define BtVectorToBtColor(color) BtColor((float)color.getX(), (float)color.getY(), (float)color.getZ()) // cast for DP build
 #elif GRAPHICS_SLIMDX
@@ -340,7 +347,7 @@ using namespace System::Drawing;
 #if _DEBUG
 #pragma comment(lib, "BulletSoftBody_Debug.lib")
 #else
-#pragma comment(lib, "BulletSoftBody_MinSizeRel.lib")
+#pragma comment(lib, "BulletSoftBody_vs2010_x64_release.lib")
 #endif
 #include <BulletSoftBody/btDefaultSoftBodySolver.h>
 #include <BulletSoftBody/btSoftBody.h>
